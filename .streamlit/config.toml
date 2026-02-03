@@ -1,27 +1,2 @@
 [server]
 enableXsrfProtection = false
-```
-
----
-
-## **Step 2: Create `.python-version` file in your repo root**
-
-Create a file named `.python-version` (no extension) with this content:
-```
-3.11
-```
-
----
-
-## **Step 3: Update `requirements.txt`**
-
-Replace your current `requirements.txt` with this optimized version:
-```
-streamlit==1.53.1
-tensorflow-cpu==2.16.1
-keras==3.10.0
-numpy<2.0
-pillow
-opencv-python-headless
-scikit-learn
-protobuf==4.25.0
